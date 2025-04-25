@@ -15,7 +15,6 @@ const SpeakerSection = () => {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8 text-left mb-12">
-          {/* Speaker Info Cards */}
           {[
             "21+ Years of Global Project Leadership",
             "Premier Authorized PMP® Instructor",
@@ -34,16 +33,20 @@ const SpeakerSection = () => {
           ))}
         </div>
 
-        {/* Closing statement */}
         <p className="text-lg text-blue-900 font-semibold max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="600">
           Anita blends theory with real-world experience, helping professionals confidently clear their PMP® exam and lead impactful projects.
         </p>
 
-        {/* CTA Button */}
+        {/* Register Now Button */}
         <div className="mt-10">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full shadow-md hover:shadow-xl transition transform hover:scale-105">
-            Learn More
-          </button>
+          <a
+            href="https://rzp.io/rzp/3qiR4C5N"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full shadow-md hover:shadow-xl transition transform hover:scale-105 font-semibold"
+          >
+            Register Now
+          </a>
         </div>
       </div>
     </section>
@@ -51,3 +54,4 @@ const SpeakerSection = () => {
 };
 
 export default SpeakerSection;
+

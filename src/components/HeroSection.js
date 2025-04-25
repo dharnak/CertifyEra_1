@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import { FaLaptopCode, FaStar, FaBolt, FaRocket } from 'react-icons/fa';
 import HeroImg from '../assets/CertifyEra.png'; // Ensure the path is valid
 
@@ -31,16 +31,20 @@ const HeroSection = () => {
             Limited Time
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 drop-shadow-md">
-            PMP® Career Acceleration <br className="hidden md:block" />
-            Webinar — Just ₹99!
+            Master the PMP Exam: <br className="hidden md:block" />
+            Proven Strategies from Experts
           </h1>
           <p className="text-base md:text-lg text-blue-100 mb-8 leading-relaxed">
-            Want to move ahead in your project management career but don’t know where to start?
-            This live webinar gives you the clarity and confidence to become a certified PMP®.
+            Register for the incredible value-packed Webinar by clicking on the link below:
           </p>
-          <button className="bg-white text-indigo-800 font-bold px-8 py-4 rounded-full shadow-lg hover:bg-indigo-100 transition duration-300">
+          <a
+            href="https://rzp.io/rzp/3qiR4C5N"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-white text-indigo-800 font-bold px-8 py-4 rounded-full shadow-lg hover:bg-indigo-100 transition duration-300"
+          >
             Register Now
-          </button>
+          </a>
         </div>
 
         {/* Image with 3D Glass Card */}

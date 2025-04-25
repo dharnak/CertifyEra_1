@@ -7,6 +7,7 @@ import BonusesSection from './components/BonusesSection';
 import RegisterSection from './components/RegisterSection';
 import Footer from './components/Footer';
 import ReviewsSection from './components/ReviewsSection';
+import PMPVideosPage from './components/PMPVideosPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <BenefitsSection />
       <BonusesSection />
       <RegisterSection />
+      <PMPVideosPage/>
       <ReviewsSection/>
       <Footer />
     </div>

@@ -2,12 +2,12 @@ import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
 
 const points = [
-  "How PMP® certification can unlock better roles, salaries, and global opportunities",
-  "A clear roadmap to crack the PMP® exam (even if you’re just starting)",
-  "Time-tested prep strategies that help you pass on your first attempt",
-  "Common mistakes most candidates make and how to avoid them",
-  "How to select the right approach: Agile, Predictive, or Hybrid",
-  "Real examples from actual project implementations and exam journeys"
+  "Why PMP Certification Matters – Explore how becoming a certified Project Management Professional (PMP) can accelerate your career, increase your credibility, and open doors to global opportunities.",
+  "Your Personalized Proven Study Plan – Get a detailed, week-by-week guide—complete with resources, mock exams, and key milestones—to help you stay focused and exam-ready.",
+  "Top Tools & Resources, Handpicked by Experts – Learn which books, online courses, and practice platforms deliver real results—and skip the guesswork.",
+  "Smart Exam Strategies for Real Success – Gain insider techniques to tackle tricky questions, manage exam stress, and boost your chances of passing on the first try.",
+  "Learn Do’s and Don’ts for your PMP Exam Prep – Learn the Do’s and Don’ts as part of your PMP Application process, your exam preparation and scheduling the exam.",
+  "We can be your partner for your entire PMP Certification journey."
 ];
 
 const AboutWebinar = () => {
@@ -16,10 +16,10 @@ const AboutWebinar = () => {
       {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-4xl font-extrabold text-blue-800 mb-4">
-          🚀 What You’ll Learn
+          🔍 What You’ll Gain from This Webinar
         </h2>
         <p className="text-lg text-blue-700 max-w-2xl mx-auto">
-          This webinar is packed with actionable strategies and expert guidance designed to help you become a certified PMP® with confidence.
+          This webinar delivers everything you need to approach the PMP exam with clarity, confidence, and expert-proven techniques.
         </p>
       </div>
 
