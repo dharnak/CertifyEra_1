@@ -15,15 +15,20 @@ const RegisterSection = () => {
         <p>
           Platform: <strong>Online (join link after registration)</strong>
         </p>
+        
       </div>
 
       <p className="my-6 text-2xl font-bold text-indigo-900">Registration Fee: ₹99 only</p>
 
-      <button className="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full shadow-md transition duration-300 ease-in-out text-lg font-semibold">
+      <a
+        href="https://rzp.io/rzp/3qiR4C5N"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full shadow-md transition duration-300 ease-in-out text-lg font-semibold"
+      >
         Register Now
-      </button>
+      </a>
     </section>
   );
 };
-
 export default RegisterSection;
